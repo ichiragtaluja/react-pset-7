@@ -44,7 +44,7 @@ export function DisplayMovies() {
         <option value="2009">2009</option>
         <option value="2010">2010</option>
       </select>
-      <ul style={{ textAlign: "left" }}>
+      <ul>
         {filteredMovies.map(({ title, year, rating }) => (
           <li key={title}>
             <p>{title}</p>

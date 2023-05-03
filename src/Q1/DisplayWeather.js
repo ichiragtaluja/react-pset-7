@@ -21,7 +21,6 @@ export function DisplayWeather() {
   };
 
   const buttonHandler = () => {
-    console.log("hi");
     setIsFahrenheit(!isFahrenheit);
     if (!isFahrenheit) {
       let temp = weatherData.temperature;
